@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Serilog.Extensions.Hosting" Version="5.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Api\Eternal.Api.Service\Eternal.Api.Service.csproj" />
+      <ProjectReference Include="..\..\..\Common\Eternal.Common.Logging\Eternal.Common.Logging.csproj" />
+      <ProjectReference Include="..\..\..\Common\Eternal.Common.Network\Eternal.Common.Network.csproj" />
+      <ProjectReference Include="..\..\..\Common\Eternal.Common.Service\Eternal.Common.Service.csproj" />
+      <ProjectReference Include="..\..\Eternal.Server.Configuration\Eternal.Server.Configuration.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -6,3 +6,9 @@ services:
     build:
       context: .
       dockerfile: Server/Eternal.Server.Host/Dockerfile
+  
+  login:
+    container_name: 'Login-Service'
+    build:
+      context: .
+      dockerfile: Server/Services/Eternal.Service.Login/Dockerfile
