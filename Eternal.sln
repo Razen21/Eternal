@@ -19,7 +19,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{D397EB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{DB0B2F4F-E942-4A62-825A-78AA180CA797}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eternal.Service.Login", "src\Service\Eternal.Service.Login\Eternal.Service.Login.csproj", "{E7F2B57F-EEBE-4E13-A609-7314D8C0AEAD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7F2B57F-EEBE-4E13-A609-7314D8C0AEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F2B57F-EEBE-4E13-A609-7314D8C0AEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F2B57F-EEBE-4E13-A609-7314D8C0AEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F2B57F-EEBE-4E13-A609-7314D8C0AEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -27,6 +39,7 @@ Global
 		{8232A691-68AE-4E13-B598-1B7A5B3CC8E3} = {F9621556-A24C-4D8A-98F8-9BDEED423584}
 		{D397EB6B-BBC8-4B70-B76B-E06712C21FBA} = {F9621556-A24C-4D8A-98F8-9BDEED423584}
 		{DB0B2F4F-E942-4A62-825A-78AA180CA797} = {F9621556-A24C-4D8A-98F8-9BDEED423584}
+		{E7F2B57F-EEBE-4E13-A609-7314D8C0AEAD} = {8232A691-68AE-4E13-B598-1B7A5B3CC8E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {541BFB3E-879C-4E66-9CAB-9AC4669661E3}
