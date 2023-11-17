@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9621556-A24C-4D8A-98F8-9BDEED423584}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{46C8AA01-7B7B-4150-A59E-5D7F534CFA23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{01A29C0C-37DB-4FE9-90F6-2BA6ED8825D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{3B3CB22B-3559-4C58-9048-C282CE4D7ACF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{AA70A5D6-30BA-40BC-B62C-EA0C189AB6F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{8232A691-68AE-4E13-B598-1B7A5B3CC8E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{D397EB6B-BBC8-4B70-B76B-E06712C21FBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{DB0B2F4F-E942-4A62-825A-78AA180CA797}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8232A691-68AE-4E13-B598-1B7A5B3CC8E3} = {F9621556-A24C-4D8A-98F8-9BDEED423584}
+		{D397EB6B-BBC8-4B70-B76B-E06712C21FBA} = {F9621556-A24C-4D8A-98F8-9BDEED423584}
+		{DB0B2F4F-E942-4A62-825A-78AA180CA797} = {F9621556-A24C-4D8A-98F8-9BDEED423584}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {541BFB3E-879C-4E66-9CAB-9AC4669661E3}
