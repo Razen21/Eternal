@@ -8,6 +8,11 @@ namespace Eternal.Network.Socket
     public interface IClientSocket
     {
         /// <summary>
+        /// Unique identification given to the client socket.
+        /// </summary>
+        string Id { get; }
+
+        /// <summary>
         /// Immutable client version information used in session verification and encryption.
         /// </summary>
         ClientVersionRecord Version { get; set; }
@@ -15,7 +20,7 @@ namespace Eternal.Network.Socket
         /// <summary>
         /// Randomly generated <see cref="uint"/> value used for session verification and encryption.
         /// </summary>
-        uint RecieveSequence { get; set; }
+        uint ReceiveSequence { get; set; }
 
         /// <summary>
         /// Randomly generated <see cref="uint"/> value used for session verification and encryption.
